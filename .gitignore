@@ -1,0 +1,40 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Visual Studio
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userosscache
+*.userprefs
+*.pidb
+*.booproj
+
+# Archivos grandes o irrelevantes
+*.psd
+*.png
+*.jpg
+*.tga
+*.apk
+*.fbx
+*.mp4
+[Ll]ibrary/
+[Ll]ogs/
+[Oo]bj/
+[Bb]uild/
+[Tt]emp/
+[Pp]ackages/
+*.csproj
+*.sln
+*.apk
+*.vsconfig
+
