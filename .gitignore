@@ -32,7 +32,6 @@
 [Oo]bj/
 [Bb]uild/
 [Tt]emp/
-[Pp]ackages/
 *.csproj
 *.sln
 *.apk
