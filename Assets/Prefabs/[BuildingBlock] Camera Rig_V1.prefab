@@ -1324,7 +1324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 6b67162c-2460-4766-a931-980388647573
-  instanceId: 32756fb6-aa45-449a-8fe4-145af9be7fa2
+  instanceId: d4c878fc-e919-4170-8de9-2e7b521dfe66
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -4097,7 +4097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 8b26b298-7bf4-490e-b245-a039c0184303
-  instanceId: ce876801-4a9b-4ee6-96ee-7bd4393d0dff
+  instanceId: 8e34061e-8783-413f-809a-23afb215e557
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -5431,7 +5431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: f61a01e5-61c7-4589-bd2d-107bccae8f02
-  instanceId: 0da6c64e-d517-49e8-a1f3-a55e084571fe
+  instanceId: 671c7bf9-aec6-4af9-83bf-bcaf8cb836c0
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -6933,7 +6933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 81f55626-5fad-45e9-a1df-184f330da7ba
-  instanceId: 13766b66-6e5f-4634-ba81-3a5d1348ac24
+  instanceId: b8dba8c6-9ee8-43ad-8dcb-bbc6a5f1a1b1
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -7015,7 +7015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: f61a01e5-61c7-4589-bd2d-107bccae8f02
-  instanceId: 2058e11c-f5d6-49f1-a2c4-9b017ce2b7d4
+  instanceId: 12b7f701-00c7-4ea7-9295-b1ffc18f7655
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -7181,7 +7181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 6b67162c-2460-4766-a931-980388647573
-  instanceId: ed29eaa3-e55b-4f22-a756-1c3eebff866f
+  instanceId: 6d061306-0e25-4737-b28a-9402f67c8b02
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -8453,7 +8453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 5817f7c0-f2a5-45f9-a5ca-64264e0166e8
-  instanceId: 65ac37e3-4a03-4175-8b0a-4de9747f92e4
+  instanceId: f66088c2-2f74-4e44-be49-3b0ca4791e36
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -8977,7 +8977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 8b26b298-7bf4-490e-b245-a039c0184303
-  instanceId: 3e38ce72-b2e2-400a-b383-a043c7d30722
+  instanceId: c8d04a3a-382b-4cd4-9afb-5fb7bc87ded2
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -11181,7 +11181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 27673ac1-cdb0-443f-a07d-6ff1d34daeca
-  instanceId: 9e24862c-9d83-4d62-8898-278596cbceac
+  instanceId: 436c3f1f-f2f2-4cfe-aa9c-cfc8a53d123f
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -13510,6 +13510,7 @@ GameObject:
   - component: {fileID: 7512266604494528373}
   - component: {fileID: 141731291407487858}
   - component: {fileID: 2502930382996931705}
+  - component: {fileID: 8790015778617486863}
   m_Layer: 0
   m_Name: CenterEyeAnchor
   m_TagString: MainCamera
@@ -13591,6 +13592,50 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &8790015778617486863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5985296243496266190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &5991444121418900062
 GameObject:
   m_ObjectHideFlags: 0
@@ -17923,7 +17968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 0393ca30-f2a9-4865-a40f-f9a68d01c3a9
-  instanceId: da1d8f84-ca11-4494-a2d5-ed80e0b15240
+  instanceId: db5233f5-38c6-4a2f-a036-1598f8013500
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -18443,7 +18488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 27673ac1-cdb0-443f-a07d-6ff1d34daeca
-  instanceId: 65c9a099-2179-4074-b1a4-69c7dfb17462
+  instanceId: fcb1368a-07d5-4814-b69a-44ecf101d736
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -19071,7 +19116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: e47682b9-c270-40b1-b16d-90b627a5ce1b
-  instanceId: 5895222f-05f7-41f8-93d2-f5c50b3c756c
+  instanceId: 818501a8-c6c1-4732-bbf5-3fa89d8035cd
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -19389,7 +19434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 5817f7c0-f2a5-45f9-a5ca-64264e0166e8
-  instanceId: f51fd960-1ec6-44c7-8c33-72e70457a94d
+  instanceId: b5b8ffac-3b06-44f9-89b3-ed7e593d08e8
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -19498,7 +19543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: f10154e0-16b2-492f-97d0-6639f69e7df6
-  instanceId: 290cdceb-484c-4949-8f0f-dc85983024ce
+  instanceId: 94ecf720-2db2-4fc3-b443-b3513a267ba7
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
