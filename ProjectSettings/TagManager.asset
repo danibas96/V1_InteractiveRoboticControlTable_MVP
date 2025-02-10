@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Target
+  - QDSUIIcon
+  - QDSUIPrimaryButton
+  - QDSUISharedThemeColor
+  - QDSUIAccentColor
+  - QDSUIToggleButton
+  - QDSUITextSecondaryColor
+  - Package
   layers:
   - Default
   - TransparentFX
