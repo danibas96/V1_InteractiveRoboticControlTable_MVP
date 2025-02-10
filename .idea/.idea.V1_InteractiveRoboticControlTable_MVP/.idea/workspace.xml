@@ -5,41 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81ac3342-3a24-4727-a773-a58f20dc59da" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/All Package Items/Cardboard box/8K Upscaled box texture.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/All Package Items/Cardboard box/8K Upscaled box texture000.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/All Package Items/Cardboard box/Cardboard box.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/All Package Items/Gift Box/Gift Box.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/All Package Items/Gift Box/Square Fold FBX TO SP_DefaultMaterial_BaseColor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/All Package Items/Gift Box/Square Fold FBX TO SP_DefaultMaterial_Metallic.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/All Package Items/Gift Box/Square Fold FBX TO SP_DefaultMaterial_Normal.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/All Package Items/Gift Box/Square Fold FBX TO SP_DefaultMaterial_Roughness.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/All Package Items/Rhode Box/Boite Rohde_Dif.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/All Package Items/Rhode Box/Boite Rohde_R.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/All Package Items/Rhode Box/RhodeBox.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/All Package Items/Testtube/Label_1.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/All Package Items/Testtube/Testtube.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Box Table/plastic container 1.1_LP_DefaultMaterial_BaseColor.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Box Table/plastic container 1.1_LP_DefaultMaterial_Metallic.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Box Table/plastic container 1.1_LP_DefaultMaterial_NormalOpenGl.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Box Table/plastic container 1.1_LP_DefaultMaterial_Roughness.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Box Table/table Box.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Conveyor Belt/Belt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Conveyor Belt/Belt.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Conveyor Belt/Belt_diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Conveyor Belt/Conveyor Belt.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Conveyor Belt/Conveyor_diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Tray/Acero_01_8K_Albedo.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Tray/Acero_01_8K_Metalness.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Tray/Acero_01_8K_Normal.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Tray/Acero_01_8K_Roughness.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/3DASSETS/Meshes &amp; Materials/Tray/Tray.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/UI Resources/BG.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/UI Resources/BG_Yellow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/UI Resources/Outline.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/UI Resources/Split Bg.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.V1_InteractiveRoboticControlTable_MVP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.V1_InteractiveRoboticControlTable_MVP/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739141128808</updated>
-      <workItem from="1739141130734" duration="11626000" />
+      <workItem from="1739141130734" duration="12245000" />
     </task>
     <servers />
   </component>
