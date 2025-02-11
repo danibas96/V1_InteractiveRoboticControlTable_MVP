@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/FirstScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/InteractiveRoboticControlTable_MVP/SCENE 3/SCENE 3_CONVEYOR.unity
+    guid: 4530a996301dd5644b5c82e6ef15390b
+  - enabled: 1
     path: Assets/Scenes/SCENE1_TRAINING.unity
     guid: 61d73c55831fed84f81299a8319c1891
   m_configObjects:
