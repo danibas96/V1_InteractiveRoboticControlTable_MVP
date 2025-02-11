@@ -1,17 +1,16 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
 public class IKmOVEMENT : MonoBehaviour
 {
-    [SerializeField] private Transform[] bones;
-    private float[] bonesLengths;
-    [SerializeField] private int solverIterations = 5;
-    private Transform targetPosition;
-    [SerializeField] private TextMeshProUGUI[] jointAngleTexts;
-    [SerializeField] private Transform homePosition;
+     [SerializeField] private Transform[] bones; // Bones of the arm/chain
+    [SerializeField] private Transform targetPosition; // Assigned manually in the inspector
+    [SerializeField] private int solverIterations = 5; // Number of iterations for solving
+    [SerializeField] private Transform homePosition; // Default resting position
 
+    private float[] bonesLengths;
     private Quaternion[] initialRotations;
     private Vector3[] initialPositions;
 
@@ -30,11 +29,6 @@ public class IKmOVEMENT : MonoBehaviour
             initialRotations[i] = bones[i].rotation;
             initialPositions[i] = bones[i].position;
         }
-
-        if (jointAngleTexts.Length != bones.Length)
-        {
-            Debug.LogError("La cantidad de textos no coincide con la cantidad de huesos.");
-        }
     }
 
     private void Update()
@@ -46,26 +40,6 @@ public class IKmOVEMENT : MonoBehaviour
         else
         {
             ResetToHome();
-        }
-
-        UpdateJointAnglesUI();
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (targetPosition == null && other.CompareTag("Target"))
-        {
-            targetPosition = other.transform;
-            Debug.Log($"Nuevo target detectado: {targetPosition.name}");
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (targetPosition != null && other.transform == targetPosition)
-        {
-            Debug.Log($"Target salió del área: {targetPosition.name}");
-            targetPosition = null;
         }
     }
 
@@ -142,17 +116,5 @@ public class IKmOVEMENT : MonoBehaviour
             }
         }
         return forwardPositions;
-    }
-
-    private void UpdateJointAnglesUI()
-    {
-        for (int i = 0; i < bones.Length; i++)
-        {
-            if (jointAngleTexts.Length > i && jointAngleTexts[i] != null)
-            {
-                Vector3 eulerAngles = bones[i].rotation.eulerAngles;
-                jointAngleTexts[i].text = $"Joint {i + 1}: X={eulerAngles.x:F1}, Y={eulerAngles.y:F1}, Z={eulerAngles.z:F1}";
-            }
-        }
     }
 }

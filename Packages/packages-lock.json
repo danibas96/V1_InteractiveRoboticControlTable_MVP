@@ -97,6 +97,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.preliy.flange": {
+      "version": "https://github.com/Preliy/Flange.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "cf57cf1da75529b34ea3340d5157a309aa6504d9"
+    },
     "com.unity.ai.navigation": {
       "version": "1.1.5",
       "depth": 2,
