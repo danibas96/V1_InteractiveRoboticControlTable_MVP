@@ -6,7 +6,7 @@ public class MovementControl : MonoBehaviour
 {
     [SerializeField] public List<GameObject> _movingObjects;
     [SerializeField] private Vector3 _movementVector;
-    private float _speed = 1.0f;
+    [SerializeField] float _speed = 1.0f;
 
     private void Update()
     {
