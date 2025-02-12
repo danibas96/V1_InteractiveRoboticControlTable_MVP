@@ -6,25 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="81ac3342-3a24-4727-a773-a58f20dc59da" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.V1_InteractiveRoboticControlTable_MVP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.V1_InteractiveRoboticControlTable_MVP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/COMMON SCRIPTS/Frame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/COMMON SCRIPTS/Frame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/COMMON SCRIPTS/TargetFollower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/COMMON SCRIPTS/TargetFollower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 1/SCENE1_TRAINING 1IK.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 1/SCENE1_TRAINING 1IK.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/SCENE 3_Conveyor(Mergded)(David).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/SCENE 3_Conveyor(Mergded)(David).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/SCRIPTS/Position1TriggerControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/SCRIPTS/Position1TriggerControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/SCRIPTS/Position2TriggerControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/SCRIPTS/Position2TriggerControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/old Scenes/SCENE3_PickAndPlaceIK.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/old Scenes/SCENE3_PickAndPlaceIK.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/Welcome screen UI.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/Welcome screen UI.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/Welcome screen UI_Interaction.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/Welcome screen UI_Interaction.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/scene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/scene3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/scene0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/scene0.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Skybox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Flange/1.0.0/Demo - Basic/Resources/ABB/ABB IRB 6700/Materials/ABB_Metal_White_Mat 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Flange/1.0.0/Demo - Basic/Resources/ABB/ABB IRB 6700/Materials/ABB_Metal_White_Mat 1.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;final__backup__main__David__02122025__0128&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main__Polishing",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.43f1\Editor\Unity.exe" />

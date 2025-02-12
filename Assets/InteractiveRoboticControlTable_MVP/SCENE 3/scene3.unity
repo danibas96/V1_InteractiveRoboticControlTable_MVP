@@ -29471,10 +29471,20 @@ PrefabInstance:
       propertyPath: _position._value
       value: 46.13
       objectReference: {fileID: 0}
+    - target: {fileID: 6782731212566403218, guid: f46ba0130ff9ce34ab0c67228ea7d0de,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7090742926068153891, guid: f46ba0130ff9ce34ab0c67228ea7d0de,
         type: 3}
       propertyPath: _position._value
       value: 16.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 7361934010147167489, guid: f46ba0130ff9ce34ab0c67228ea7d0de,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7580419172145682279, guid: f46ba0130ff9ce34ab0c67228ea7d0de,
         type: 3}
