@@ -707,7 +707,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 0
+          m_StringArgument: scene0
           m_BoolArgument: 0
         m_CallState: 2
   _whenUnselect:
@@ -24468,7 +24468,7 @@ Transform:
   m_GameObject: {fileID: 1823941841}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.65408146, y: 0.39786166, z: -1.2670126}
+  m_LocalPosition: {x: 0.931, y: 1.352, z: -1.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

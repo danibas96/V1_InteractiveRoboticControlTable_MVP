@@ -6,17 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/Welcome
-      screen UI_Interaction.unity
+    path: Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/scene0.unity
     guid: c545e33936d49574296d770b70844285
   - enabled: 1
-    path: Assets/InteractiveRoboticControlTable_MVP/SCENE 1/SCENE1_TRAINING 1IK.unity
+    path: Assets/InteractiveRoboticControlTable_MVP/SCENE 1/scene1.unity
     guid: aeb76d41407c39746a9e9b4eeb485384
   - enabled: 1
-    path: Assets/InteractiveRoboticControlTable_MVP/SCENE 2/SCENE2_PickAndPlaceIK.unity
+    path: Assets/InteractiveRoboticControlTable_MVP/SCENE 2/scene2.unity
     guid: 6f5d0df4e06557e4a885137ec7e38b9a
   - enabled: 1
-    path: Assets/InteractiveRoboticControlTable_MVP/SCENE 3/SCENE 3_Conveyor(Mergded)(David).unity
+    path: Assets/InteractiveRoboticControlTable_MVP/SCENE 3/scene3.unity
     guid: 4e39aea7614afbe4f8e1473aba256607
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b3f0abc41af99c04981b860aa7786f87,
