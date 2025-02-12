@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="81ac3342-3a24-4727-a773-a58f20dc59da" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.V1_InteractiveRoboticControlTable_MVP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.V1_InteractiveRoboticControlTable_MVP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/scene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/scene3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/scene0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/scene0.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Skybox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Flange/1.0.0/Demo - Basic/Resources/ABB/ABB IRB 6700/Materials/ABB_Metal_White_Mat 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Flange/1.0.0/Demo - Basic/Resources/ABB/ABB IRB 6700/Materials/ABB_Metal_White_Mat 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/scene0_with Robots.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/scene0_with Robots.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scripts/FinalJointGrabber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scripts/FinalJointGrabber.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scripts/PackageFollower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scripts/PackageFollower.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

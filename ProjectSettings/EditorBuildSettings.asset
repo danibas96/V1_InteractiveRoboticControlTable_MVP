@@ -6,8 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/scene0.unity
-    guid: c545e33936d49574296d770b70844285
+    path: Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/scene0_with
+      Robots.unity
+    guid: 0e48730b96fb62f4d8a81b9a1afef4b0
   - enabled: 1
     path: Assets/InteractiveRoboticControlTable_MVP/SCENE 1/scene1.unity
     guid: aeb76d41407c39746a9e9b4eeb485384

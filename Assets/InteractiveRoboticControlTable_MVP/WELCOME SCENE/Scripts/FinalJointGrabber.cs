@@ -5,68 +5,105 @@ using UnityEngine.Events;
 public class FinalJointGrabber : MonoBehaviour
 {
     [Header("References")]
-    [Tooltip("The target empty object that will become the package’s parent.")]
-    public Transform targetEmpty;
+    [Tooltip("The designated parent that the package will be forcefully assigned to after being held for 2 seconds.")]
+    public Transform designatedParent;
 
     [Header("Grab Settings")]
     [Tooltip("Time in seconds the package must remain inside the trigger to be grabbed.")]
     public float requiredHoldTime = 2f;
 
     [Header("Events")]
-    [Tooltip("Event to invoke once the package is grabbed.")]
+    [Tooltip("Event to invoke once the package is grabbed (i.e. reparented to the designatedParent).")]
     public UnityEvent OnPackageGrabbed;
 
-    // We keep a reference to the currently detected package.
+    [Tooltip("Event to invoke when the package leaves the small collider (after being grabbed).")]
+    public UnityEvent OnPackageRemoved;
+
+    [Tooltip("Reference to the PackageFollower script on the big collider (to enable/disable its detection).")]
+    public PackageFollower bigColliderScript;
+
+    // Internally track the package and whether it has been grabbed.
     private GameObject currentPackage;
-
-    // A reference to the coroutine so we can cancel it if needed.
     private Coroutine grabCoroutine;
+    private bool isPackageGrabbed = false;
 
-    // Called when a collider enters the trigger.
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("package") && currentPackage == null)
+        if (!isPackageGrabbed && other.CompareTag("Package"))
         {
-            currentPackage = other.gameObject;
-            // Start the grabbing routine.
-            grabCoroutine = StartCoroutine(GrabAfterDelay(other));
+            // If no package is currently tracked, begin the grabbing process.
+            if (currentPackage == null)
+            {
+                currentPackage = other.gameObject;
+                Debug.Log($"Package entered the final joint trigger: {other.name}");
+                grabCoroutine = StartCoroutine(GrabAfterDelay(other));
+            }
         }
     }
 
-    // Called when a collider exits the trigger.
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("package") && other.gameObject == currentPackage)
+        if (other.CompareTag("Package") && other.gameObject == currentPackage)
         {
-            // Cancel the grab coroutine if the package leaves before the required time.
-            if (grabCoroutine != null)
+            // If the package was successfully grabbed...
+            if (isPackageGrabbed)
             {
-                StopCoroutine(grabCoroutine);
-                grabCoroutine = null;
+                Debug.Log($"Package removed from the final joint trigger (grabbed): {other.name}");
+                // Unparent the package (forcefully remove it from designatedParent).
+                other.transform.SetParent(null);
+                OnPackageRemoved?.Invoke();
+
+                // Re-enable detection in the big collider.
+                if (bigColliderScript != null)
+                {
+                    bigColliderScript.SetDetectionEnabled(true);
+                }
+
+                isPackageGrabbed = false;
+                currentPackage = null;
             }
-            currentPackage = null;
+            else // If the package left before the required hold time...
+            {
+                if (grabCoroutine != null)
+                {
+                    StopCoroutine(grabCoroutine);
+                    grabCoroutine = null;
+                    Debug.Log($"Package exited before grabbing: {other.name}");
+                }
+                currentPackage = null;
+            }
         }
     }
 
-    // Coroutine that waits for the package to stay inside the trigger for a given time.
     private IEnumerator GrabAfterDelay(Collider packageCollider)
     {
         float timer = 0f;
         while (timer < requiredHoldTime)
         {
             timer += Time.deltaTime;
+            Debug.Log($"Holding package for {timer:F2} seconds...");
             yield return null;
         }
 
-        // If the package is still here after the delay, parent it to the target empty.
-        if (packageCollider != null && targetEmpty != null)
+        // After the hold time, forcefully reparent and snap the package to the designated parent's position.
+        if (packageCollider != null && designatedParent != null)
         {
-            packageCollider.transform.SetParent(targetEmpty);
-            // Optionally, reset its local position if you need it to be exactly aligned:
-            // packageCollider.transform.localPosition = Vector3.zero;
+            // Reparent while preserving world scale/rotation.
+            packageCollider.transform.SetParent(designatedParent, true);
+            // Move the package to the parent's exact position.
+            packageCollider.transform.localPosition = Vector3.zero;
+            Debug.Log($"Package grabbed and reparented to {designatedParent.name} at its position.");
 
-            // Invoke any additional event (for example, to trigger UI or other behaviors).
-            OnPackageGrabbed?.Invoke();
+            OnPackageGrabbed?.Invoke(); // Invoke the grabbed event.
+
+            // Disable big collider detection.
+            if (bigColliderScript != null)
+            {
+                bigColliderScript.SetDetectionEnabled(false);
+            }
+
+            isPackageGrabbed = true;
         }
     }
+
 }

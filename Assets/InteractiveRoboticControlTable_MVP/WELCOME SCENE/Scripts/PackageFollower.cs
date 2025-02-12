@@ -10,35 +10,50 @@ public class PackageFollower : MonoBehaviour
     [Tooltip("How fast the target follows the package (smaller means slower).")]
     public float followSpeed = 2f;
 
-    // This will hold the package’s transform once it enters the collider.
     private Transform packageTransform;
 
-    // Called when any collider enters the trigger attached to this object.
+    // To enable or disable detection from the big collider.
+    private bool isDetectionEnabled = true;
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("package"))
+        if (isDetectionEnabled && other.CompareTag("Package"))
         {
-            // Store the package's transform.
             packageTransform = other.transform;
+            Debug.Log($"Package entered the detection zone: {other.name}");
         }
     }
 
-    // When the package leaves, we clear the stored transform.
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("package") && other.transform == packageTransform)
+        if (isDetectionEnabled && other.CompareTag("Package") && other.transform == packageTransform)
         {
             packageTransform = null;
+            Debug.Log($"Package exited the detection zone: {other.name}");
         }
     }
 
     private void Update()
     {
-        // If there is a package in the collider, move the target gradually toward it.
-        if (packageTransform != null && targetEmpty != null)
+        if (isDetectionEnabled && packageTransform != null && targetEmpty != null)
         {
-            // Smoothly interpolate the targetEmpty’s position toward the package’s position.
             targetEmpty.position = Vector3.Lerp(targetEmpty.position, packageTransform.position, followSpeed * Time.deltaTime);
+            Debug.DrawLine(targetEmpty.position, packageTransform.position, Color.green);
+        }
+    }
+
+    // Public method to toggle detection (can be called by other scripts).
+    public void SetDetectionEnabled(bool enabled)
+    {
+        isDetectionEnabled = enabled;
+        if (!enabled)
+        {
+            packageTransform = null; // Clear the target if detection is disabled.
+            Debug.Log("Big collider detection disabled.");
+        }
+        else
+        {
+            Debug.Log("Big collider detection enabled.");
         }
     }
 }
