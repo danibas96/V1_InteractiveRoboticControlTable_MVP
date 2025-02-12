@@ -24849,6 +24849,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2521595290600106060}
+    - targetCorrespondingSourceObject: {fileID: 5662491705310192613, guid: a15f89f960c14bf41956c90b11e32c29,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2521595290600106061}
   m_SourcePrefab: {fileID: 100100000, guid: a15f89f960c14bf41956c90b11e32c29, type: 3}
 --- !u!4 &2521595290600106048 stripped
 Transform:
@@ -24877,6 +24881,23 @@ MonoBehaviour:
   _movingObjects: []
   _movementVector: {x: 0, y: 0, z: 1}
   _speed: 0.5
+--- !u!114 &2521595290600106061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2521595290600106051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1601e94c87d8c6c47852d47abb0556e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roboticArm: {fileID: 0}
+  spawnGrab: {fileID: 0}
+  placePosition: {fileID: 0}
+  speed: 2
+  detectionZone: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

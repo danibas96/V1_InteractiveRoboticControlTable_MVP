@@ -114,10 +114,13 @@ public class TrainingManager : MonoBehaviour
     // ✅ Move object/robot smoothly to target positions
     private IEnumerator MoveToPosition(Transform obj, Vector3 targetPosition)
     {
-        while (Vector3.Distance(obj.position, targetPosition) > 0.05f)
+        while (Vector3.Distance(obj.position, targetPosition) > 0.01f) // 🔹 Reduce threshold for accuracy
         {
             obj.position = Vector3.Lerp(obj.position, targetPosition, speed * Time.deltaTime);
             yield return null;
         }
+
+        // 🔹 Ensure the object reaches the exact position
+        obj.position = targetPosition;
     }
 }

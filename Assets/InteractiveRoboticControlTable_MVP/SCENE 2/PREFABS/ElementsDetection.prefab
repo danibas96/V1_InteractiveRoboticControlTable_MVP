@@ -255,7 +255,7 @@ MonoBehaviour:
   roboticArm: {fileID: 0}
   spawnGrab: {fileID: 0}
   placePosition: {fileID: 0}
-  speed: 1.5
+  speed: 2
   detectionZone: {fileID: 581838146912091171}
 --- !u!54 &557010548435719316
 Rigidbody:

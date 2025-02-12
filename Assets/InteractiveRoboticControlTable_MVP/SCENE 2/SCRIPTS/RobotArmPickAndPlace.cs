@@ -30,7 +30,7 @@ public class RobotArmPickAndPlace : MonoBehaviour
     // 🔹 Detect objects that enter the detection zone
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Target") && !placedObjects.Contains(other.transform))
+        if (other.CompareTag("Package") && !placedObjects.Contains(other.transform))
         {
             Debug.Log($"🎯 New target detected: {other.name}");
 
