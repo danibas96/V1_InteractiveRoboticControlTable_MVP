@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Meta.XR.Editor.Tags;
 using Oculus.Interaction.PoseDetection;
 using UnityEngine;
 
@@ -8,7 +7,7 @@ public class Position2TriggerControl : MonoBehaviour
 {
     [SerializeField] private GameObject _conveyorBelt;
     //Required tag for packages, default is Package
-    [SerializeField] private Tag _requiredTag;
+    [SerializeField] private string _requiredTag;
     //Bool to determine if object is destroyed when it stops
     [SerializeField] private bool _destroyOnExit;
     //Delay time in seconds
