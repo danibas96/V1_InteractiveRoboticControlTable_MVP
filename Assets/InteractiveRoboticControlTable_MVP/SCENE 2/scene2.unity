@@ -180,7 +180,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
       - m_Target: {fileID: 1880765820}
         m_TargetAssemblyTypeName: SceneManagement, Assembly-CSharp
         m_MethodName: LoadScene
@@ -192,7 +192,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: scene0
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
   _whenUnselect:
     m_PersistentCalls:
       m_Calls:
@@ -207,7 +207,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
   _whenInteractorViewAdded:
     m_PersistentCalls:
       m_Calls: []
