@@ -33,7 +33,7 @@ public class Position2TriggerControl : MonoBehaviour
         // Optionally destroy the object or deactivate it
         if (_destroyOnExit)
         {
-            other.gameObject.SetActive(false);
+            GameObject.Destroy(other.gameObject, 2f);
         }
     }
 }

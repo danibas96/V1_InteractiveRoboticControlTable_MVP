@@ -55,7 +55,7 @@ public class RobotArmPickAndPlace : MonoBehaviour
             detectedObject = objectQueue.Dequeue();
 
             // 🏁 Move robotic arm to the detected object's position
-            yield return MoveToPosition(roboticArm, detectedObject.position);
+            yield return MoveToPosition(roboticArm, detectedObject.position + spawnGrab.localPosition);
 
             // 🖐️ Grab the object (Attach without affecting scale)
             GrabObject(detectedObject);
@@ -126,7 +126,7 @@ public class RobotArmPickAndPlace : MonoBehaviour
         if (detectedObject == null) return;
 
         detectedObject.SetParent(null); // Detach from the robotic arm
-        detectedObject.position = placePosition.position; // Ensure final placement
+        // detectedObject.position = placePosition.position; // Ensure final placement
 
         // Restore the original world scale
         detectedObject.localScale = originalScale;

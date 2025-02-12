@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81ac3342-3a24-4727-a773-a58f20dc59da" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 1/SCRIPTS/TrainingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 1/SCRIPTS/TrainingManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 2/PREFABS/ElementsDetection.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 2/PREFABS/ElementsDetection.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.V1_InteractiveRoboticControlTable_MVP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.V1_InteractiveRoboticControlTable_MVP/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 2/SCRIPTS/RobotArmPickAndPlace.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 2/SCRIPTS/RobotArmPickAndPlace.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/SCENE 3_CONVEYOR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/SCENE 3_CONVEYOR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/SCENE 3_CONVEYOR.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/SCENE 3_CONVEYOR.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IKmOVEMENT.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IKmOVEMENT.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/SCRIPTS/Position2TriggerControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/SCRIPTS/Position2TriggerControl.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
@@ -29,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.preliy.flange@cf57cf1da7/Runtime/Scripts/Animation/TargetFollower.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -99,6 +91,7 @@
       <updated>1739141128808</updated>
       <workItem from="1739141130734" duration="12245000" />
       <workItem from="1739341876145" duration="607000" />
+      <workItem from="1739349093373" duration="2681000" />
     </task>
     <servers />
   </component>
