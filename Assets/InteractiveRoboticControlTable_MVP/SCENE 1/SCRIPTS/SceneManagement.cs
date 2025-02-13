@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,4 +12,9 @@ public class SceneManagement : MonoBehaviour
         {
             SceneManager.LoadScene(sceneName);
         }
-  }
+
+        public void OnApplicationQuit()
+        {
+            Application.Quit();
+        }
+}

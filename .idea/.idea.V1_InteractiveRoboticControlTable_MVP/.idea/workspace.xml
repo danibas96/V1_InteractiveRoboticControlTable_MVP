@@ -6,9 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="81ac3342-3a24-4727-a773-a58f20dc59da" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.V1_InteractiveRoboticControlTable_MVP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.V1_InteractiveRoboticControlTable_MVP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 1/scene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 1/scene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 2/scene2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 2/scene2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/PREFABS/Cardboard box.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/PREFABS/Cardboard box.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/scene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/SCENE 3/scene3.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/scene0_with Robots.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scenes/scene0_with Robots.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scripts/FinalJointGrabber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scripts/FinalJointGrabber.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scripts/PackageFollower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Scripts/PackageFollower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Welcome Voice.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InteractiveRoboticControlTable_MVP/WELCOME SCENE/Welcome Voice.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
