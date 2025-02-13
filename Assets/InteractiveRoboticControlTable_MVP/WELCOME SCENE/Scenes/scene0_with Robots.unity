@@ -17781,7 +17781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 314119191ff3a0845bff9aa5b65a3d8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetObject: {fileID: 730937329}
+  targetObject: {fileID: 3202526702366172074}
   movementThreshold: 0.015
 --- !u!82 &2041429820
 AudioSource:
@@ -17803,7 +17803,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1.89
+  MinDistance: 1.75
   MaxDistance: 50
   Pan2D: 0
   rolloffMode: 0
@@ -17839,7 +17839,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.619
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -20475,6 +20475,12 @@ PrefabInstance:
 --- !u!4 &3202526702366172073 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2161632742063480142, guid: 630d4ed992e8e8e45b5e011d40e23d11,
+    type: 3}
+  m_PrefabInstance: {fileID: 3202526702366172072}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3202526702366172074 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7738345937174849605, guid: 630d4ed992e8e8e45b5e011d40e23d11,
     type: 3}
   m_PrefabInstance: {fileID: 3202526702366172072}
   m_PrefabAsset: {fileID: 0}
