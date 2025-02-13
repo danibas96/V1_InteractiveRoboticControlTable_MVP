@@ -5638,8 +5638,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
+      propertyPath: m_IsOn
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
+        type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
@@ -5650,7 +5655,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 354193427}
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -5669,7 +5674,7 @@ PrefabInstance:
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 3
+      value: scene3
       objectReference: {fileID: 0}
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
@@ -15030,8 +15035,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
-      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
+      propertyPath: m_IsOn
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
+        type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
@@ -15042,7 +15052,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 354193427}
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -15061,7 +15071,7 @@ PrefabInstance:
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 2
+      value: scene2
       objectReference: {fileID: 0}
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
@@ -29140,7 +29150,7 @@ PrefabInstance:
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
@@ -29151,7 +29161,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 354193427}
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -29175,7 +29185,7 @@ PrefabInstance:
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 1
+      value: scene1
       objectReference: {fileID: 0}
     - target: {fileID: 5711578258500834538, guid: 3059bfdd74fccb64f96566778b3b0dc2,
         type: 3}
